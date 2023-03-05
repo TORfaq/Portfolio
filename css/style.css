@@ -1,0 +1,50 @@
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+  margin: 10px;
+  padding: 15px;
+  border: 5px;
+  background:  #39d0db ;
+}
+header {
+  background: #b2faff;
+}
+.menu {
+  display: flex;
+}
+.menu li{
+  width: 200px;
+  list-style: none;
+  background:   #4fe0eb;
+  position: relative;
+}
+.menu a{
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 0 10px;
+  height: 40px;
+  line-height: 40px;
+  transition: all .5s;
+}
+
+.menu ul {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  display: none;
+  padding: 0;
+}
+.menu li:hover ul {
+  display: block;
+  position:  absolute;
+}
+li:hover {
+ background:  #0f98a2 ;
+}
+.content {
+  background: #b2faff;
+}
+footer {
+  background: #b2faff;
+}
